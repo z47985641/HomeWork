@@ -92,7 +92,7 @@ namespace HomeWork
             label5.Text = $"{LTXT}\n";
             for (int i = 0; i < NData.Count; i++)
             {
-                if (((ScoreData)NData[i]).Dchi > SearchSmall && ((ScoreData)NData[i]).Dchi < SearchBig)
+                if (((ScoreData)NData[i]).Dchi >= SearchSmall && ((ScoreData)NData[i]).Dchi <= SearchBig)
                 {
                     label5.Text += $"{((ScoreData)NData[i]).DName.PadRight(15)}" +
                         $"{((ScoreData)NData[i]).Dchi.ToString().PadRight(15)}" +

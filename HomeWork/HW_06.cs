@@ -21,5 +21,10 @@ namespace HomeWork
         {
 
         }
+
+        private void HW_06_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
